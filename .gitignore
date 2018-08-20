@@ -59,3 +59,28 @@ typings/
 
 # next.js build output
 .next
+
+# O JET
+/bower_components
+/web
+/themes
+
+/hybrid/node_modules
+/hybrid/platforms
+/hybrid/www/*
+
+!hybrid/plugins
+hybrid/plugins/*
+!hybrid/plugins/fetch.json
+
+.DS_Store
+Thumbs.db
+
+# Certificados
+private.key
+STAR_unifil_br.ca-bundle
+STAR_unifil_br.crt
+STAR_unifil_br.pfx
+
+# DATA BASE ORACLE
+dbconfig_original.js
